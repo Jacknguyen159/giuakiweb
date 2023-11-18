@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Shop điện thoại</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/styles.css" rel="stylesheet">
+  <link href="./css/responsive.css" rel="stylesheet" >
+</head>
+<body>
+	<header id="header"><!--header-->
+        <div class="header-middle"><!--header-middle-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="title-bar">
+                            <h2><a href="./index.html">.Phone</a></h2>
+                        </div>
+					</div>
+					<div class="col-sm-8">
+                            <div class="shop-menu pull-right">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="#"><i class="fa fa-user"></i> Tài khoản</a></li>
+                                    <li><a href="./cart.html"><i class="fa fa-shopping-cart"></i> Thanh toán</a></li>
+                                    <li><a href="./login.html"><i class="fa fa-lock"></i> Đăng nhập</a></li>
+                                </ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-bottom"><!--header-bottom-->
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-9">
+							<div class="mainmenu pull-left">
+								<ul class="nav navbar-nav navbar-collapse">
+									<li><a href="./index.html" class="active">Trang chủ</a></li>
+									<li class="dropdown"><a href="#">Phụ kiện<i class="fa fa-angle-down"></i></a>
+										<ul role="menu" class="sub-menu">
+											<li><a href="./index.html">Sản phẩm</a></li>
+											<li><a href="./product-details.html">Thông tin sản phẩm</a></li> 
+											<li><a href="./cart.html">Thanh toán</a></li> 
+										</ul>
+									</li> 
+									<li><a href="./index.html">Laptop</a></li>
+									<li><a href="./index.html">Điện thoại</a></li>
+									<li><a href="./index.html">Tablet</a></li>
+									<li><a href="./.html">PC</a></li>
+
+								</ul>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="search_box pull-right">
+								<input type="text" placeholder="Bạn tìm gì..."/>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div><!--/header-bottom-->
+		</header><!--/header-->
+        <section id="cart_items">
+            <div class="container">
+                <div class="table-responsive cart_info">
+                    <table class="table table-condensed">
+                        <thead>
+                            <tr class="cart_menu">
+                                <td class="image">Mặt hàng</td>
+                                <td class="description">Thông tin</td>
+                                <td class="price">Giá</td>
+                                <td class="quantity">Số lượng</td>
+                                <td class="total">Tổng tiền</td>
+                                <td></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="cart_product">
+                                    <a href=""><img src="./images/tablet.png" alt="" style="width: 100px; height: 100px;"></a>
+                                </td>
+                                <td class="cart_description">
+                                    <h4><a href="">Xiaomi redmi ipad</a></h4>
+                                </td>
+                                <td class="cart_price">
+                                    <p>5.900.000</p>
+                                </td>
+                                <td class="cart_quantity">
+                                    <div class="quantity">
+                                        <input type="number" min="0" value="1"><br>
+                                    </div>
+                                </td>
+                                <td class="cart_total">
+                                    <p class="cart_total_price">11.800.000</p>
+                                </td>
+                                <td class="cart_delete">
+                                    <a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td class="cart_product">
+                                    <a href=""><img src="./images/samsung-galaxy-tab-s9-plus-xam-thumb-600x600.jpg" alt="" style="width: 100px; height: 100px;"></a>
+                                </td>
+                                <td class="cart_description">
+                                    <h4><a href="">Samsung Galaxy Tab S9+ 5G</a></h4>
+                                </td>
+                                <td class="cart_price">
+                                    <p>26.990.000</p>
+                                </td>
+                                <td class="cart_quantity">
+                                    <div class="quantity">
+                                        <input type="number" min="0" value="1"><br>
+                                    </div>
+                                </td>
+                                <td class="cart_total">
+                                    <p class="cart_total_price">26.990.000</p>
+                                </td>
+                                <td class="cart_delete">
+                                    <a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="cart_product">
+                                    <a href=""><img src="./images/ipad-air-5.jpg" alt="" style="width: 100px; height: 100px;"></a>
+                                </td>
+                                <td class="cart_description">
+                                    <h4><a href="">iPad Air 5 M1 WiFi 64GB</a></h4>
+                                </td>
+                                <td class="cart_price">
+                                    <p>14.590.000</p>
+                                </td>
+                                <td class="cart_quantity">
+                                    <div class="quantity">
+                                        <input type="number" min="0" value="1"><br>
+                                    </div>
+                                </td>
+                                <td class="cart_total">
+                                    <p class="cart_total_price">14.590.000</p>
+                                </td>
+                                <td class="cart_delete">
+                                    <a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section> <!--/#cart_items-->
+        <section id="do_action">
+            <div class="container">
+                <div>
+                    <div class="col-sm-12">
+                        <div class="total_area">
+                            <ul>
+                                <li>ID <span>123456</span></li>
+                                <li>Tổng tiền sản phẩm <span>5.900.000</span></li>
+                                <li>Thuế <span>70.000</span></li>
+                                <li>Phí ship <span>30.000</span></li>
+                                <li>Mã giảm giá<span>Không</span></li>
+                                <li>Tổng tiền <span>6.000.000</span></li>
+                            </ul>
+                            <div class="payment-options">
+                                <span>
+                                    <label><input type="checkbox"> Chuyển khoản </label>
+                                </span>
+                                <span>
+                                    <label><input type="checkbox"> Tiền mặt</label>
+                                </span><Br>
+                            </div>
+                                <a class="btn btn-default update" href="">In đơn</a>
+                                <a class="btn btn-default check_out" href="">Kiểm tra thông tin</a>
+                                <a class="btn btn-default coupon" href="">Mã giảm giá</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!--/#do_action-->
+        <footer id="footer"><!--Footer-->
+		
+            <div class="footer-widget">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="single-widget">
+                                <h2>Service</h2>
+                                <ul class="nav nav-pills nav-stacked">
+                                    <li><a href="#">Online Help</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Order Status</a></li>
+                                    <li><a href="#">Change Location</a></li>
+                                    <li><a href="#">FAQ’s</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="single-widget">
+                                <h2>facebook</h2>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 ">
+                            <div class="single-widget">
+                                <h2>About </h2>
+                                <form action="#" class="searchform">
+                                    <input type="text" placeholder="Your email address" />
+                                    <button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
+                                    <p>Get the most recent updates from <br />our site and be updated your self...</p>
+                                </form>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+        </footer><!--/Footer-->
+        <script src="https://kit.fontawesome.com/5c289cb566.js" crossorigin="anonymous"></script>
+        <script src="./js/slide.js"></script>
+	
+</body>
+</html>
